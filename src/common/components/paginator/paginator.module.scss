@@ -1,0 +1,22 @@
+.paginator {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+
+  .page {
+    padding: 2px 3px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border-radius: 6px;
+
+    &:hover {
+      color: var(--color-primary);
+    }
+  }
+
+  .selectedPage {
+    color: var(--color-primary);
+    background-color: rgba(#ff2c60, 0.1);
+  }
+}

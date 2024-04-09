@@ -1,0 +1,16 @@
+@import 'index.scss';
+
+.addMessageForm {
+    display: flex;
+    gap: 1rem;
+
+    & > textarea {
+        flex: 1;
+    }
+
+    .messageField {
+        @include input;
+
+        border: none;
+    }
+}

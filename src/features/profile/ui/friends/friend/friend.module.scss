@@ -1,0 +1,35 @@
+.link {
+    flex: 1;
+    text-decoration: none;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    transition: opacity 0.2s ease-in-out;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    .img {
+        max-width: 9rem;
+        height: 9rem;
+        width: 100%;
+        margin-bottom: 1rem;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+
+    .userName {
+        font-size: 1.4rem;
+        color: white;
+        font-weight: 600;
+        max-width: 70px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}

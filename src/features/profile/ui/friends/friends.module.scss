@@ -1,0 +1,24 @@
+.friends {
+    flex: 1 1 48.5%;
+    align-items: flex-start;
+    padding: 2rem;
+    background-color: var(--color-secondary);
+    border-radius: 2rem;
+
+    .count {
+        font-size: 1.2rem;
+        color: var(--color-secondary-light);
+    }
+
+    .items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    button {
+        width: 100%;
+    }
+}

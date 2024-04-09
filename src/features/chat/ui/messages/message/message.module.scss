@@ -1,0 +1,15 @@
+.message {
+    margin-bottom: 1rem;
+
+    .userInfo {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+
+        .photo {
+            width: 4.5rem;
+            border-radius: 50%;
+        }
+    }
+}

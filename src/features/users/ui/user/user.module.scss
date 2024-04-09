@@ -1,0 +1,41 @@
+.user {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  background-color: var(--color-secondary);
+
+  .subsBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    .userImg {
+      border-radius: 50%;
+    }
+
+    button {
+      font-size: 0.8rem;
+      padding: 0.4rem 1rem;
+      margin-left: 0;
+    }
+  }
+
+  .info {
+    flex: 1 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+      .username {
+        flex: 1 0;
+        font-size: 1.6rem;
+      }
+
+      .status {
+        font-size: 1.4rem;
+      }
+  }
+}

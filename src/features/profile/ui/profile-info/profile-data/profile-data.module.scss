@@ -1,0 +1,33 @@
+.profileData {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    z-index: 10;
+
+    .item {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+    }
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    .editButton {
+        all: unset;
+
+        cursor: pointer;
+        padding: 0;
+
+        background-color: transparent;
+        border: none;
+        outline: none;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}

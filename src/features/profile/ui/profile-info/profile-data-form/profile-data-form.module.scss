@@ -1,0 +1,37 @@
+@import 'index.scss';
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+        button {
+        align-self: flex-start;
+        margin-left: 0;
+    }
+}
+
+.item {
+    .heading {
+        margin-bottom: 0.6rem;
+    }
+
+    .input,
+    .textarea {
+        @include input;
+    }
+
+    .textarea {
+        resize: none;
+    }
+}
+
+.job {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.error {
+    color: #ff3f3f;
+}

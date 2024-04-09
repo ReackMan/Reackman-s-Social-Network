@@ -1,0 +1,23 @@
+.formControl {
+    position: relative;
+
+    &.error {
+        input,
+        textarea {
+            border: none;
+            outline: 1px solid #ff6363;
+
+            &::placeholder {
+                color: #ff6363;
+            }
+        }
+
+        span {
+            position: absolute;
+            top: -1.5rem;
+            right: 0.5rem;
+            font-size: 1rem;
+            color: #ff6363;
+        }
+    }
+}

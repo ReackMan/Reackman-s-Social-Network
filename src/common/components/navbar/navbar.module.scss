@@ -1,0 +1,28 @@
+.sidebar {
+    font-size: 1.6rem;
+    color: white;
+
+    .nav {
+        display: flex;
+        gap: 1rem;
+        list-style: none;
+
+        .item {
+            a {
+                color: inherit;
+                text-decoration: none;
+
+                &.active {
+                    color: var(--color-primary);
+                }
+
+                svg {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    margin-right: 4px;
+                    margin-bottom: -2px;
+                }
+            }
+        }
+    }
+}
