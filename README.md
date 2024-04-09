@@ -1,8 +1,6 @@
-# Samurai Way
+# ReackMan's Social Network
 
-![CI] (https://github.com/ReackMan/reackman-s-social-network/actions/workflows/github-actions.yml/badge.svg)
-
-[Demo](https://reackman.github.io/reackman-s-social-network)
+[Demo](https://reackman.github.io/reack-s-social-network)
 
 ## Built With
 This is a social network project built using `React`, `Redux`, `TypeScript`, `React-router`, `REST API`, `Axios`, `WebSocket`, `Formik`, `Jest`, and `SCSS`. This social network platform allows users to connect with friends, edit their profiles, chat, and search for other users.
